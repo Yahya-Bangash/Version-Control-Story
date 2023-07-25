@@ -2,6 +2,10 @@
 2- Git directory is made in the folder but it is hidden and can be seen through ls -accessible
 3- Currently story directory is working directly
 4- Staging directory is intermiate state inside working directory in which u can pick and choose which files to commit.
-5- Git status command shows files in the working directly if they are passed in staging area or not
+5- Git status command shows files in the working directly if they are passed in staging area(green) or not(red)
 6- git add filename to add file to staging area
-7- 
+7- To commit use command git commit -m " write a Message"
+8- set you name and email(neceesary) by git config --global user.email "you@example.com" git config --global user.name "Your Name"
+9- Use git log to see which commits u have made
+10-Use git add .  to add everything in working directry into staging area.
+
